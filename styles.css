@@ -151,3 +151,26 @@ text-align:justify;
     width: 500px;
     margin-bottom: -30px;
 }
+.gotoTOP1{
+     display: flex;
+     justify-content: center;
+     margin-top: 50px;
+     width: 200px;
+     margin-left: 40%;
+}
+.gotoTOP{
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: #e89d9aa9;
+    width: 200px;
+    padding: 30px;
+    border: 0px;
+    
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.805);
+}
+.gotoTOP:hover{
+    cursor: pointer;
+    transition: 1s;
+transform: translateY(-10px);
+}
