@@ -98,8 +98,39 @@ justify-content: start;
     color: rgba(165, 42, 42, 0.407);
 }
 .books{
-    
+    display: flex;
+    flex-direction: column;
+
 }
 .h2{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+
+}
+.pic1{
+    width: 200px;
+    box-shadow: 10px 10px 10px black;
+}
+.pic1:hover{
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px rgb(201, 87, 87);
+}
+.undertext{
+width: 300px;
+text-align:justify;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    transition: 1s; 
+}
+.pictxt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 
 }
